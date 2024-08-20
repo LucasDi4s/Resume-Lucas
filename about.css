@@ -1,46 +1,44 @@
-
-/*<---------- responsividade do cartão main ------------>*/
-@media screen and (max-width: 888px) {
+/*<---------- Responsividade do Cartão Main ------------>*/
+@media screen and (max-width: 942px) {
   #about {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     width: 100%;
   }
 
   #about img {
-    margin-bottom: 50%;
-    width: 40%;
-  }
-
-  .list-group li {
-    display: flex;
-    margin-left: -85%;
-    margin-top: -1%;
+    width: 75%;
+    margin: 0 10% 120% 0;
   }
 
   .about .badge {
     margin-right: 65%;
     margin-top: -5%;
   }
-  .about hr{
+
+  .about hr {
     width: 95%;
   }
+
+  .about-text {
+    margin-top: 80%;
+    margin-left: -80%;
+  }
 }
-/*<---------- fim da responsividade do cartão main ------------>*/
+/*<---------- Fim da Responsividade do Cartão Main ------------>*/
 
 .about {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   width: 60%;
 }
 
-.about hr {
-  border-color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
+.hr {
+  border-color: #000000;
+  background-color: #000000;
 }
 
 .about img {
   width: 45%;
   margin: 0 6vw 0 0;
-
 }
 
 .about-text {
@@ -53,11 +51,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 3vh 6vw 3vh 6vw;
+  padding: 3vh 6vw;
 }
 
 .list-group h5 {
-  font-size: 85%;
+  font-size: 0.85em;
   margin: 0;
   text-transform: capitalize;
   margin-bottom: 8%;
@@ -67,14 +65,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8vh 0 0.8vh;
-  font-size: 115%;
+  padding: 0.8vh 0;
+  font-size: 1.15em;
 }
 
 .about .badge {
-  font-size: 85%;
+  font-size: 0.85em;
   text-align: right;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .under-text {
@@ -90,7 +88,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2vh 0 1vh 0;
+  margin: 2vh 0 1vh;
 }
 
 .social li {
@@ -99,7 +97,7 @@
 
 .social a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 a:hover {

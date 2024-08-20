@@ -134,13 +134,12 @@
     margin-top: 3%;
     text-align: left;
 }
-
 li {
     list-style: none;
 }
 
 .container {
-    width: 250vw;
+    width: 350vh;
 }
 
 .logos {
@@ -152,12 +151,12 @@ li {
 .logos ul {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 85px;
     animation: 20s infinite slide linear;
 }
 
 .logos img {
-    width: 150px;
+    width: 100px;
 }
 
 @keyframes slide {
@@ -171,7 +170,7 @@ li {
 }
 
 .logos ul:hover {
-    animation-play-state: paused;
+    animation-play-state:paused;
 }
 
 hr {
